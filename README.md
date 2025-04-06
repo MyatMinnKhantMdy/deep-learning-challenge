@@ -47,7 +47,7 @@ This project uses deep learning to build a binary classification model that pred
   - Achieved ~72% accuracy
 
 ### 3. Optimization
-- Increased complexity with 3 hidden layers (128, 64, 32 neurons)
+- Increased complexity with 3 hidden layers (100, 30, 10 neurons)
 - Added Dropout layer (0.2) to reduce overfitting
 - Trained model for 100 epochs
 - Final model reached target accuracy of **~75%**
