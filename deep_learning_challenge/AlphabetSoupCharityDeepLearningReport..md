@@ -55,8 +55,8 @@ This analysis uses deep learning to build a binary classifier that predicts the 
    **Changes made:**
 		    - Increased complexity:
 		    - 1st hidden layer: 100 neurons (ReLU)
-		    - 2nd hidden layer: 30 neurons (ReLU)
-		    - 3rd hidden layer: 10 neurons (ReLU)
+		    - 2nd hidden layer: 30 neurons (Sigmoid)
+		    - 3rd hidden layer: 10 neurons (Sigmoid)
 			- Added a dropout layer of 20% to reduce overfitting.
 			- Increased epochs to 100 and used model checkpoint to store the best model.
    
@@ -78,9 +78,9 @@ The final deep learning model was able to meet the 75% accuracy goal after optim
 
 ---
 
-## Alternative Model Recommendation
+## Alternative Model
 
-To solve this classification problem differently, I recommend trying a **Random Forest Classifier**:
+To solve this classification problem differently, I used a **Random Forest Classifier**:
 
  **Why?**
   - This model is highly effective on tabular data.
@@ -88,3 +88,5 @@ To solve this classification problem differently, I recommend trying a **Random 
   - It tends to perform better with less preprocessing and handles categorical data effectively.
 
 Using a tree-based model might offer higher accuracy and a better explanation, which is important for funding decision-making in nonprofit organizations.
+
+
