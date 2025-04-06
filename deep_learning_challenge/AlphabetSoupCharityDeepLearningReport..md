@@ -54,10 +54,10 @@ This analysis uses deep learning to build a binary classifier that predicts the 
    
    **Changes made:**
 		    - Increased complexity:
-		    - 1st hidden layer: 128 neurons (ReLU)
-		    - 2nd hidden layer: 64 neurons (ReLU)
-		    - 3rd hidden layer: 32 neurons (ReLU)
-			- Added a dropout layer of 20% to reduce 	 			overfitting.
+		    - 1st hidden layer: 100 neurons (ReLU)
+		    - 2nd hidden layer: 30 neurons (ReLU)
+		    - 3rd hidden layer: 10 neurons (ReLU)
+			- Added a dropout layer of 20% to reduce overfitting.
 			- Increased epochs to 100 and used model checkpoint to store the best model.
    
    **Performance:**
