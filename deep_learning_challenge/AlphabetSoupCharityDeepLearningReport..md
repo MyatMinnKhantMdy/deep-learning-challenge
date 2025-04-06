@@ -87,6 +87,8 @@ To solve this classification problem differently, I used a **Random Forest Class
   - It provides feature importance scores, making interpretation easier.
   - It tends to perform better with less preprocessing and handles categorical data effectively.
 
+ Random forest model accuracy: 77.08
+
 Using a tree-based model might offer higher accuracy and a better explanation, which is important for funding decision-making in nonprofit organizations.
 
 
